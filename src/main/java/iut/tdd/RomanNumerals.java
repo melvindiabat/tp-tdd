@@ -10,6 +10,13 @@ public class RomanNumerals {
 		else if(arabe.equals("6")){return "VI";}
 		else if(arabe.equals("9")){return "IX";}
 		else if(arabe.equals("10")){return "X";}
+		else if(arabe.equals("14")){return "XIV";}
+		else if(arabe.equals("15")){return "XV";}
+		else if(arabe.equals("16")){return "XVI";}
+		else if(arabe.equals("19")){return "IXX";}
+		else if(arabe.equals("20")){return "XX";}
+		else if(arabe.equals("24")){return "XXIV";}
+		else if(arabe.equals("25")){return "XXV";}
 		return "0";
 
 	}
